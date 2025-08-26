@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Cabeçalho -->
+        <header>
+            <h1>Rodrigo Macedo</h1>
+            <nav id="menu">
+                <ul>
+                    <li><a href="/index.html">Sobre mim</a></li>
+                    <li><a href="formacao.html">Formação</a></li>
+                    <li><a href="portfolio.html">Portfólio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Conteúdo principal -->
+        <main>
+            <section id="contato">
+                <div class="icone-titulo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2zm-2 0l-8 5l-8-5zm0 12H4V8l8 5l8-5z" />
+                    </svg>
+                    <h2>Contato</h2> <br>
+                </div>
+                <p>Se você quiser entrar em contato, tirar uma dúvida ou fazer um comentário, sinta-se à vontade para enviar uma mensagem.</p>
+                <form>
+                    <!-- 'fieldset' cria uma borda ao redor do formulário -->
+                    <fieldset>
+                        <legend>Dados de contato</legend>
+                        <label for="nome">Nome:</label> <br>
+                        <input type="text" id="nome" name="nome"> <br><br>
+                        <label for="email">Email:</label> <br>
+                        <input type="email" id="email" name="email"> <br><br>
+                        <label for="mensagem">Mensagem: </label> <br>
+                        <textarea name="mensagem" id="mensagem" rows="7" cols="40"></textarea> <br><br>
+                        <button id="botao" onclick="alertMensagem()">Enviar</button>
+                        <!-- 'alertMensagem()' é uma função que está no script.js que mostra uma mensagem quando o usuário envia o formulário -->
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <!-- Rodapé com links -->
+    <footer>
+        <div id="links-finais">
+            <!-- Links para o GitHub e LinkedIn-->
+            <ul>
+                <li><a href="https://github.com/RODRIGOAFK" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/rodrigo-macedo-43222a307" target="_blank">LinkedIn</a></li>
+            </ul>
+        </div>
+        <p id="rodape">&copy; Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>

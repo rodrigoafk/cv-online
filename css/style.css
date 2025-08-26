@@ -1,0 +1,217 @@
+/*  Importando fontes  */
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/*  Limpa formatações  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*  Estilo geral  */
+body {
+    background-color: #181818;
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: "Shantell Sans", cursive;
+    margin-bottom: 24px;
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #6ab7ff;
+}
+
+h2 {
+    color: #6ab7ff;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    display: inline-block;
+    vertical-align: super;
+}
+
+/*  Cabeçalho  */
+header {
+    background-color: #23272a;
+    padding: 20px;
+    color: #e0e0e0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+nav a:link, nav a:visited {
+    color: #e0e0e0;
+    padding: 8px 12px;
+    border-radius: 4px;
+
+}
+
+/*  Altera a cor quando o usuário passa o mouse  */
+nav a:hover{
+    color: #6ab7ff;
+    background: #2c2f34;
+    text-decoration: none;
+}
+
+main {
+    padding: 4rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+
+.container {
+    flex: 1;
+}
+
+.icone-titulo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 0.3rem;
+}
+
+/*  Rodapé  */
+footer {
+    background-color: #23272a;
+    margin-top: 24px;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+#rodape{
+    margin-top: 32px;
+}
+
+fieldset {
+    border: 1px solid #6ab7ff;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+legend {
+    color: #e0e0e0;
+    padding: 0 0.5rem;
+    text-align: center;
+}
+
+/*  Estiliza e aumenta o tamanho dos campos do formulário  */
+input[type="text"], input[type ="email"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #6ab7ff;
+    border-radius: 5px;
+    background-color: #23272a;
+    color: #e0e0e0;
+}
+
+textarea {
+    border: 1px solid #6ab7ff;
+    background-color: #23272a;
+    border-radius: 5px;
+    padding: 0.6rem;
+    color: #e0e0e0;
+    width: 100%;
+}
+
+#botao {
+    background-color: #23272a;
+    color: #e0e0e0;
+    border: #6ab7ff solid 1px;
+    border-radius: 5px;
+    padding: 0.6rem;
+    cursor: pointer;
+    width: auto; 
+    min-width: 120px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+#links-finais a{
+    color: #e0e0e0;
+    padding: 10px 15px;
+    font-size: 1.1rem;
+}
+
+#links-finais a:hover {
+    color: #6ab7ff;
+}
+
+.formacao-item {
+    border: 1px solid #6ab7ff;
+    padding: 2rem;
+    background-color: #23272a;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+}
+
+h3 {
+    color: #6ab7ff;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.formacao-item p {
+    margin-bottom: 0.5rem;
+    line-height: 1.5; 
+}
+
+.projeto {
+    border: 1px solid #6ab7ff;
+    padding: 2rem;
+    background-color: #23272a;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+}
+
+/*  Remove o sublinhado  */
+abbr {
+    text-decoration: none;
+}
+
